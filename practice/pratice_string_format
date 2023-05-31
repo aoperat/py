@@ -1,0 +1,21 @@
+
+
+#string format
+
+print("my age is %d." % 20)
+print("my age is %s." % "twenty")
+print("my age is %c." % "T")
+
+print("i like color %s and %s" %("blue","red"))
+
+print("i am {}.".format(20))
+print("i like color {1} and {0}.".format("blue","red"))
+
+
+print("i am {age}. and i like color {color}".format(age = 20, color = "red"))
+
+age = 20
+color = "red"
+
+print(f"i am {age}. and i like color {color}")
+
